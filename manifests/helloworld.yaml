@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-container
-        image: xldevdocker/helloworld:4.0
+        image: xldevdocker/helloworld:c9efb464a72309481cb7b917d2ff15af2e4af831
         ports:
         - containerPort: 8080
 ---
@@ -28,6 +28,6 @@ spec:
   selector:
     app: helloworld
   ports:
-    - protocol: TCP
-      port: 8087
-      targetPort: 8080
+  - protocol: TCP
+    port: 8087
+    targetPort: 8080
