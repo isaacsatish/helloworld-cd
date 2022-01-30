@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-container
-        image: xldevdocker/helloworld:3f029e12af95b216b0f3145a890623eaf3be755f
+        image: xldevdocker/helloworld:c9efb464a72309481cb7b917d2ff15af2e4af831
         ports:
         - containerPort: 8080
 ---
