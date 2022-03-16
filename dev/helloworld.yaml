@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-container
-        image: xldevdocker/helloworld:ee3f232
+        image: xldevdocker/helloworld:$GIT_COMMIT
         ports:
         - containerPort: 8080
 ---
